@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import { Container, Title, SubTitle, ButtonFilter, ContainerTextButton, ContainerGraphics } from "./style";
 import iconFilter from '../icon/icon-filter.svg';
 import Cardgraphic from "../components/card/Cardgraphic";
+import Graphics from "../components/graphics/Graphics";
 
 function Dashboard() {
   return (
@@ -19,8 +20,12 @@ function Dashboard() {
       </ContainerTextButton>
 
       <ContainerGraphics>
-      <Cardgraphic />
-      <Cardgraphic />
+      <Cardgraphic/>
+      
+        
+        
+      
+      
 
       </ContainerGraphics>
 
