@@ -40,3 +40,9 @@ export const ButtonFilter = styled.button`
   margin-top: 44px;
 `;
 
+export const ContainerGraphics = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  margin: 45px 28px 28px 28px;
+`;
