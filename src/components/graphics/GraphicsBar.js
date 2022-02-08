@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Chart from "react-apexcharts";
+import { Container, Card, Title } from "./style";
+import icon from '../../icon/icon-i.svg'
 
-function Graphics() {
+function GraphicsBar() {
   const [options, setOptions] = useState({
     chart: {
       id: "basic-bar",
       type: "bar",
-      height: 350,
     },
     plotOptions: {
       bar: {
@@ -41,16 +42,25 @@ function Graphics() {
   ]);
 
   return (
-    <>
-      <Chart
-        options={options}
-        series={series}
-        type="bar"
-        width="89%"
-        height="89%"
-      />
-    </>
+    <Container>
+     <Title>
+       Barra
+       <img src={icon}/>
+       </Title> 
+      
+        
+  
+      <Card>
+        <Chart
+          options={options}
+          series={series}
+          type="bar"
+          width="100%"
+          height="100%"
+        />
+      </Card>
+    </Container>
   );
 }
 
-export default Graphics;
+export default GraphicsBar;

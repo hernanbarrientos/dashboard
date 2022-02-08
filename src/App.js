@@ -1,12 +1,10 @@
-import React from 'react';
-import Dashboard from './page/Dashboard';
-import Graphics from "../src/components/graphics/Graphics";
+import React from "react";
+import Dashboard from "./page/Dashboard";
 
 function App() {
   return (
     <div>
-      <Dashboard/>
-      {/* <Graphics/> */}
+      <Dashboard />
     </div>
   );
 }
