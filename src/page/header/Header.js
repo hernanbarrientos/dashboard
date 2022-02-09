@@ -1,10 +1,8 @@
-import React from 'react'
-import {ContainerHeader} from './style'
+import React from "react";
+import { ContainerHeader } from "./style";
 
 function Header() {
-  return (
-    <ContainerHeader/>
-  );
+  return <ContainerHeader />;
 }
 
 export default Header;

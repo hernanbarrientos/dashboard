@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Chart from "react-apexcharts";
 import { Container, Card, Title } from "./style";
-import icon from '../../icon/icon-i.svg'
+import icon from "../../icon/icon-i.svg";
 
 function GraphicsBar() {
   const [options, setOptions] = useState({
@@ -43,13 +43,11 @@ function GraphicsBar() {
 
   return (
     <Container>
-     <Title>
-       Barra
-       <img src={icon}/>
-       </Title> 
-      
-        
-  
+      <Title>
+        Barra
+        <img src={icon} />
+      </Title>
+
       <Card>
         <Chart
           options={options}

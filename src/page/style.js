@@ -4,7 +4,13 @@ export const Container = styled.main`
   background-color: #e5e5e5;
   width: 100%;
   height: 100vh;
-  
+  @media (max-width: 915px) {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-bottom: 20px;
+  }
 `;
 
 export const ContainerTextButton = styled.div`
@@ -46,4 +52,9 @@ export const ContainerGraphics = styled.div`
   justify-content: space-between;
   gap: 28px;
   margin: 45px 28px 28px 28px;
+  @media (max-width: 915px) {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+  }
 `;
