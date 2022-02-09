@@ -23,10 +23,9 @@ function Dashboard() {
             <SubTitle>Desafio Técnico Frontend </SubTitle>
           </div>
           <ButtonFilter>
-            <img src={iconFilter} />
+            <img src={iconFilter} alt="icon filter" />
           </ButtonFilter>
         </ContainerTextButton>
-
         <ContainerGraphics>
           <Graphicsbar />
           <GraphicsScatter />

@@ -141,7 +141,7 @@ function GraphicsScatter() {
     <Container>
       <Title>
         Scatter
-        <img src={icon} />
+        <img src={icon} alt="icon information" />
       </Title>
 
       <Card>

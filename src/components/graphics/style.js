@@ -15,9 +15,6 @@ export const Container = styled.div`
 export const Card = styled.div`
   height: 330px;
   margin: 14px 38px 14px 39px;
-  
-
-
 `;
 
 export const Title = styled.h3`

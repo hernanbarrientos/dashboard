@@ -18,15 +18,15 @@ function GraphicsBar() {
       "China",
       "Germany",
     ],
-  } 
+  };
 
   const series = [
     {
       name: "series-1",
       data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
-    }
-  ]
-  
+    },
+  ];
+
   const options = {
     chart: {
       id: "basic-bar",
@@ -42,15 +42,14 @@ function GraphicsBar() {
       enabled: false,
     },
 
-    xaxis
+    xaxis,
   };
-  
 
   return (
     <Container>
       <Title>
         Barra
-        <img src={icon} />
+        <img src={icon} alt="icon information" />
       </Title>
 
       <Card>
