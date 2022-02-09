@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Chart from "react-apexcharts";
 import { Container, Card, Title } from "./style";
 import icon from "../../icon/icon-i.svg";
 
 function GraphicsScatter() {
-  const [options, setOptions] = useState({
+  const options = {
     chart: {
       height: 350,
       type: "scatter",
@@ -24,8 +24,9 @@ function GraphicsScatter() {
     yaxis: {
       tickAmount: 7,
     },
-  });
-  const [series, setSeries] = useState([
+  };
+
+  const series = [
     {
       name: "SAMPLE A",
       data: [
@@ -134,7 +135,7 @@ function GraphicsScatter() {
         [16.4, 0],
       ],
     },
-  ]);
+  ];
 
   return (
     <Container>
